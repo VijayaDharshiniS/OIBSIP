@@ -62,5 +62,40 @@ Segment customers based on purchasing behaviour using Recency, Frequency, and Mo
 ## Conclusion
 These projects demonstrate data cleaning, exploratory data analysis, data visualization, customer behaviour analysis, and unsupervised machine learning for customer segmentation.
 
+## Task 3: Data Cleaning
+
+### Objective
+Clean a deliberately incomplete Titanic passenger dataset and prepare it for further analysis.
+
+### Technologies Used
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
+
+### Work Performed
+- Generated a data quality report covering missing values, duplicates, data types, and numeric summaries.
+- Handled missing Age values using median imputation.
+- Replaced missing Cabin values with "Unknown".
+- Filled missing Embarked values using mode imputation.
+- Checked and removed duplicate rows.
+- Standardised text formatting in categorical and text columns.
+- Detected potential outliers using the Interquartile Range (IQR) method.
+- Retained potential outliers because they may represent genuine passenger values.
+- Corrected data types for identifiers, numeric columns, and text columns.
+- Generated a before-and-after cleaning summary.
+- Exported the cleaned dataset as `Titanic_Cleaned.csv`.
+
+### Project Files
+- `Vijayadharshini_Task3.ipynb` — notebook containing the data cleaning process.
+- `Titanic_Cleaned.csv` — cleaned dataset.
+- `train.csv` — original dataset.
+
+### Outcome
+The cleaned dataset preserves the original 891 rows, has no missing values, and has no duplicate rows. Data types and text formatting were standardised for further analysis.
+
+### Note
+Potential outliers were identified using IQR and retained rather than automatically removed, since unusual values are not necessarily data errors.
+
 ## Internship
 **Oasis Infobyte — Data Analytics Internship**
