@@ -153,5 +153,55 @@ This project demonstrates the machine learning workflow for house price predicti
 - `House Price Prediction Dataset.csv` – Dataset used for analysis.
 - `Vijayadharshini_Level2_Task1.ipynb` – Jupyter Notebook containing the analysis, preprocessing, model training, visualizations, and evaluation.
 
+## Level 2 - Task 2: Wine Quality Prediction
+
+### Objective
+Build and evaluate machine learning classification models to predict wine quality categories using physicochemical properties.
+
+### Dataset
+- Dataset: UCI Wine Quality — White Wine
+- File: `winequality-white.csv`
+- Original records: 4,898
+- Records after duplicate removal: 3,961
+- Input features: 11 physicochemical measurements
+- Target: Low, Medium, High wine quality groups
+
+### Data Preprocessing
+- Inspected dataset structure and missing values.
+- Removed 937 duplicate records.
+- Explored quality score distribution and feature correlations.
+- Grouped quality scores into Low (5 or below), Medium (6), and High (7 or above).
+- Applied an 80:20 stratified train-test split.
+- Used StandardScaler within machine learning pipelines.
+
+### Algorithms
+- Random Forest Classifier
+- SGD Classifier
+- Support Vector Classifier (SVC)
+
+### Model Comparison
+
+| Model | Accuracy |
+|---|---:|
+| Random Forest | 60.03% |
+| SVC | 56.37% |
+| SGD Classifier | 50.69% |
+
+### Feature Importance
+The Random Forest model identified alcohol, density, and volatile acidity as the three most important features.
+
+### Conclusion
+Random Forest achieved the highest test accuracy of 60.03% among the evaluated models. It was selected as the preferred prototype model. Further tuning and independent validation are recommended before deployment.
+
+### Technologies Used
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook.
+
+### Files
+- `winequality-white.csv` — dataset
+- `Vijayadharshini_Level2_Task2.ipynb` — analysis and model training notebook
+
+### Limitations
+The model has moderate accuracy and may misclassify wine quality groups. Predictions should not be treated as definitive quality assessments.
+
 ## Internship
 **Oasis Infobyte — Data Analytics Internship**
