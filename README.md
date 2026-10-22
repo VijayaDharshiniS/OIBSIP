@@ -246,5 +246,63 @@ This project demonstrates a machine learning workflow for credit card fraud dete
 
 **Note:** Download the dataset from the Kaggle source above. The raw dataset is not included in this repository due to its file size.
 
+---
+
+## Level 2 — Task 4: Unveiling the Android App Market
+
+### Project Overview
+
+This project explores the Google Play Store app market using Python and data analysis techniques. It analyses app categories, ratings, app sizes, installs, pricing, estimated revenue potential, and user review sentiment.
+
+### Objectives
+
+- Analyse the distribution of apps across categories.
+- Examine app ratings and average ratings by category.
+- Explore the relationship between app size and installs.
+- Compare free and paid apps.
+- Estimate potential revenue by category.
+- Perform sentiment analysis on user reviews.
+- Visualise findings using charts and an interactive Plotly chart.
+
+### Tools and Technologies
+
+- Python
+- Jupyter Notebook
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- TextBlob
+- Plotly
+
+### Dataset
+
+Google Play Store Apps and User Reviews dataset:
+
+[Kaggle — Google Play Store Apps](https://www.kaggle.com/datasets/lava18/google-play-store-apps)
+
+### Project Workflow
+
+1. Data loading and inspection
+2. Data cleaning and preprocessing
+3. Category distribution analysis
+4. Rating analysis
+5. App size and installs analysis
+6. Free and paid app analysis
+7. Review sentiment analysis
+8. Category-wise sentiment analysis
+9. Interactive visualisation
+10. Findings and recommendations
+
+### Key Outcomes
+
+The analysis provides insights into app distribution, user ratings, install patterns, pricing models, and review sentiment. These findings can help app developers explore potential market opportunities and identify areas for app improvement.
+
+### Limitations
+
+The dataset may not represent current Google Play Store conditions. Install counts are rounded, estimated revenue is not actual revenue, and automated sentiment analysis may not fully capture context or sarcasm.
+
+### Project File
+
+`Vijayadharshini_Level2_Task4.ipynb`
+
 ## Internship
 **Oasis Infobyte — Data Analytics Internship**
