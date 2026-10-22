@@ -203,5 +203,48 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Jupyter Notebook.
 ### Limitations
 The model has moderate accuracy and may misclassify wine quality groups. Predictions should not be treated as definitive quality assessments.
 
+## Level 2 - Task 3: Credit Card Fraud Detection
+
+### Project Overview
+This project uses machine learning classification algorithms to identify potentially fraudulent credit card transactions. It focuses on handling highly imbalanced data and evaluating models using fraud-specific performance metrics.
+
+### Dataset
+- **Dataset:** Credit Card Fraud Detection
+- **Source:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **Features:** Transaction time, anonymised numerical features (V1–V28), transaction amount, and class label.
+- **Target:** Class 0 represents legitimate transactions; Class 1 represents fraudulent transactions.
+
+### Tools and Technologies
+- Python
+- Jupyter Notebook
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Scikit-learn
+
+### Project Workflow
+1. Loaded and inspected the transaction dataset.
+2. Checked missing values and measured class imbalance.
+3. Performed exploratory data analysis on transaction amounts and transaction timing.
+4. Used stratified train-test splitting.
+5. Applied class weighting to address the imbalance during model training.
+6. Trained Logistic Regression and Random Forest classifiers.
+7. Evaluated the models using Precision, Recall, F1-score, ROC-AUC, and confusion matrices.
+8. Analysed Random Forest feature importance and Logistic Regression coefficients.
+9. Discussed scalability requirements for processing one million transactions per hour.
+
+### Evaluation
+The models were compared using fraud detection metrics rather than accuracy alone. The final model should be selected by considering fraud recall, precision, ROC-AUC, false positives, and the cost of missed fraudulent transactions.
+
+### Scalability
+A production deployment could use a message queue, a containerised prediction API, horizontal scaling, monitoring, and regular model updates. Actual throughput and latency must be validated through load testing.
+
+### Conclusion
+This project demonstrates a machine learning workflow for credit card fraud detection and highlights the challenges of severe class imbalance. It provides a foundation for further improvements through threshold tuning, hyperparameter optimisation, and testing with newer transaction data.
+
+### Notebook
+`Vijayadharshini_Level2_Task3.ipynb`
+
+**Note:** Download the dataset from the Kaggle source above. The raw dataset is not included in this repository due to its file size.
+
 ## Internship
 **Oasis Infobyte — Data Analytics Internship**
