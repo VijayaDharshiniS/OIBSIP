@@ -97,5 +97,61 @@ The cleaned dataset preserves the original 891 rows, has no missing values, and 
 ### Note
 Potential outliers were identified using IQR and retained rather than automatically removed, since unusual values are not necessarily data errors.
 
+## Level 2 – Task 1: House Price Prediction Using Linear Regression
+
+### Project Overview
+
+This project focuses on predicting house prices using machine learning regression techniques. The dataset contains 2,000 records with features such as area, bedrooms, bathrooms, floors, year built, location, condition, garage availability, and house price.
+
+### Objectives
+
+- Analyze the house price dataset using exploratory data analysis.
+- Identify numerical and categorical features.
+- Preprocess the data using missing-value imputation and One-Hot Encoding.
+- Train a Linear Regression model to predict house prices.
+- Evaluate model performance using MSE, RMSE, and R² score.
+- Compare Linear Regression with Ridge Regression.
+
+### Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+### Project Workflow
+
+1. Load and inspect the dataset.
+2. Perform data cleaning and exploratory data analysis.
+3. Visualize house price distributions and numerical feature correlations.
+4. Separate input features and the target variable, Price.
+5. Preprocess numerical and categorical features using a pipeline.
+6. Split the dataset into 80% training data and 20% testing data.
+7. Train the Linear Regression model.
+8. Evaluate predictions using MSE, RMSE, and R² score.
+9. Visualize actual versus predicted prices and analyze residuals.
+10. Compare Linear Regression with Ridge Regression.
+
+### Model Evaluation
+
+| Model | RMSE | R² Score |
+|---|---:|---:|
+| Linear Regression | 279859.73 | -0.0067 |
+| Ridge Regression | 279859.01 | -0.0067 |
+
+The Ridge Regression model achieved a very small reduction in RMSE. However, both models produced a negative R² score, indicating that their predictive performance was weak on the test dataset. Further feature engineering and evaluation of alternative regression models may help improve performance.
+
+### Conclusion
+
+This project demonstrates the machine learning workflow for house price prediction, including data exploration, preprocessing, model training, visualization, and evaluation. The comparison shows that further improvements are needed to obtain more accurate predictions.
+
+### Project Files
+
+- `House Price Prediction Dataset.csv` – Dataset used for analysis.
+- `House_Price_Prediction.ipynb` – Jupyter Notebook containing the analysis, preprocessing, model training, visualizations, and evaluation.
+
 ## Internship
 **Oasis Infobyte — Data Analytics Internship**
