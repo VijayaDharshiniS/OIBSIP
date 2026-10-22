@@ -151,7 +151,7 @@ This project demonstrates the machine learning workflow for house price predicti
 ### Project Files
 
 - `House Price Prediction Dataset.csv` – Dataset used for analysis.
-- `House_Price_Prediction.ipynb` – Jupyter Notebook containing the analysis, preprocessing, model training, visualizations, and evaluation.
+- `Vijayadharshini_Level2_Task1.ipynb` – Jupyter Notebook containing the analysis, preprocessing, model training, visualizations, and evaluation.
 
 ## Internship
 **Oasis Infobyte — Data Analytics Internship**
