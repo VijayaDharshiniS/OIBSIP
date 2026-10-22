@@ -304,5 +304,49 @@ The dataset may not represent current Google Play Store conditions. Install coun
 
 `Vijayadharshini_Level2_Task4.ipynb`
 
+# Level 2 - Task 5 : Autocomplete and Autocorrect Data Analytics
+
+## Objective
+To analyse autocomplete and autocorrect algorithms using NLP techniques and compare their accuracy.
+
+## Dataset
+Alice's Adventures in Wonderland – Project Gutenberg.
+
+**Dataset File:** `alice.txt`
+
+## Tech Stack
+Python, Pandas, NLTK, PySpellChecker, Collections, Matplotlib, Scikit-learn, Jupyter Notebook.
+
+## Features Implemented
+- Loaded and preprocessed the text dataset.
+- Applied tokenisation, lowercasing, punctuation removal, and stopword removal.
+- Built bigram and trigram models for autocomplete.
+- Tested autocomplete using 10 input prefixes with top 3 predictions.
+- Implemented autocorrect using PySpellChecker.
+- Tested 20 misspelled words and achieved an initial accuracy of 75%.
+- Implemented a second autocorrect approach using Levenshtein distance.
+- Compared both autocorrect algorithms using accuracy, precision, recall, and F1-score.
+- Created a bar chart of the top 20 frequent words.
+- Created a simplified confusion-matrix visualisation for autocorrect.
+
+## Project Files
+- `Vijayadharshini_Level2_Task5.ipynb` – Jupyter Notebook containing the implementation and analysis.
+- `alice.txt` – Text dataset used for the project.
+- `README.md` – Project documentation.
+
+## Limitations
+- The dataset contains text from a single book.
+- N-gram models have limited contextual understanding.
+- Spelling correction may produce incorrect suggestions for unfamiliar words.
+- The test dataset is small compared with real-world applications.
+
+## Conclusion
+This project demonstrates NLP-based autocomplete and autocorrect using n-gram models, PySpellChecker, and Levenshtein distance. The algorithms were tested and compared to understand their performance and limitations.
+
+## How to Run
+1. Install the required Python libraries.
+2. Keep `alice.txt` in the same folder as the notebook.
+3. Open `Vijayadharshini_Level2_Task5.ipynb` in Jupyter Notebook.
+4. Run all cells in sequence.
 ## Internship
 **Oasis Infobyte — Data Analytics Internship**
